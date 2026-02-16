@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Audio files
+backend/audio/*.mp3
+backend/static/audio/*.mp3
+
+# Uploads
+backend/uploads/
+backend/static/uploads/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Models (if large)
+backend/models/
+*.bin
+*.safetensors
+
+# Generated videos (excluded from repo)
+backend/videos/
+
+# Local logs directories
+logs/
+backend/logs/
+
+# Local env and dev scripts
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/test_*.py
+
+# Local test scripts (avoid accidental commits with keys)
+backend/test_*.py
+backend/video_generation.py
+frontend/src/components/StoryAnimation.tsx
